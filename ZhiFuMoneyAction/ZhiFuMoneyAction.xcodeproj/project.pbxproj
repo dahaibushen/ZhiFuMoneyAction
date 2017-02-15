@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F0CF0211E54A161002EA46D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F0CF0201E54A161002EA46D /* main.m */; };
+		0F0CF0241E54A161002EA46D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F0CF0231E54A161002EA46D /* AppDelegate.m */; };
+		0F0CF0271E54A161002EA46D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F0CF0261E54A161002EA46D /* ViewController.m */; };
+		0F0CF02A1E54A161002EA46D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F0CF0281E54A161002EA46D /* Main.storyboard */; };
+		0F0CF02C1E54A161002EA46D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F0CF02B1E54A161002EA46D /* Assets.xcassets */; };
+		0F0CF02F1E54A161002EA46D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F0CF02D1E54A161002EA46D /* LaunchScreen.storyboard */; };
+		0F0CF03A1E54A162002EA46D /* ZhiFuMoneyActionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F0CF0391E54A162002EA46D /* ZhiFuMoneyActionTests.m */; };
+		0F0CF0451E54A162002EA46D /* ZhiFuMoneyActionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F0CF0441E54A162002EA46D /* ZhiFuMoneyActionUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0F0CF0361E54A162002EA46D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0F0CF0141E54A161002EA46D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F0CF01B1E54A161002EA46D;
+			remoteInfo = ZhiFuMoneyAction;
+		};
+		0F0CF0411E54A162002EA46D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0F0CF0141E54A161002EA46D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F0CF01B1E54A161002EA46D;
+			remoteInfo = ZhiFuMoneyAction;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F0CF01C1E54A161002EA46D /* ZhiFuMoneyAction.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZhiFuMoneyAction.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F0CF0201E54A161002EA46D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0F0CF0221E54A161002EA46D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0F0CF0231E54A161002EA46D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0F0CF0251E54A161002EA46D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0F0CF0261E54A161002EA46D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0F0CF0291E54A161002EA46D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0F0CF02B1E54A161002EA46D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0F0CF02E1E54A161002EA46D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0F0CF0301E54A161002EA46D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F0CF0351E54A162002EA46D /* ZhiFuMoneyActionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZhiFuMoneyActionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F0CF0391E54A162002EA46D /* ZhiFuMoneyActionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZhiFuMoneyActionTests.m; sourceTree = "<group>"; };
+		0F0CF03B1E54A162002EA46D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F0CF0401E54A162002EA46D /* ZhiFuMoneyActionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZhiFuMoneyActionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F0CF0441E54A162002EA46D /* ZhiFuMoneyActionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZhiFuMoneyActionUITests.m; sourceTree = "<group>"; };
+		0F0CF0461E54A162002EA46D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0F0CF0191E54A161002EA46D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F0CF0321E54A162002EA46D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F0CF03D1E54A162002EA46D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F0CF0131E54A161002EA46D = {
+			isa = PBXGroup;
+			children = (
+				0F0CF01E1E54A161002EA46D /* ZhiFuMoneyAction */,
+				0F0CF0381E54A162002EA46D /* ZhiFuMoneyActionTests */,
+				0F0CF0431E54A162002EA46D /* ZhiFuMoneyActionUITests */,
+				0F0CF01D1E54A161002EA46D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0F0CF01D1E54A161002EA46D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0F0CF01C1E54A161002EA46D /* ZhiFuMoneyAction.app */,
+				0F0CF0351E54A162002EA46D /* ZhiFuMoneyActionTests.xctest */,
+				0F0CF0401E54A162002EA46D /* ZhiFuMoneyActionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0F0CF01E1E54A161002EA46D /* ZhiFuMoneyAction */ = {
+			isa = PBXGroup;
+			children = (
+				0F0CF0221E54A161002EA46D /* AppDelegate.h */,
+				0F0CF0231E54A161002EA46D /* AppDelegate.m */,
+				0F0CF0251E54A161002EA46D /* ViewController.h */,
+				0F0CF0261E54A161002EA46D /* ViewController.m */,
+				0F0CF0281E54A161002EA46D /* Main.storyboard */,
+				0F0CF02B1E54A161002EA46D /* Assets.xcassets */,
+				0F0CF02D1E54A161002EA46D /* LaunchScreen.storyboard */,
+				0F0CF0301E54A161002EA46D /* Info.plist */,
+				0F0CF01F1E54A161002EA46D /* Supporting Files */,
+			);
+			path = ZhiFuMoneyAction;
+			sourceTree = "<group>";
+		};
+		0F0CF01F1E54A161002EA46D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0F0CF0201E54A161002EA46D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0F0CF0381E54A162002EA46D /* ZhiFuMoneyActionTests */ = {
+			isa = PBXGroup;
+			children = (
+				0F0CF0391E54A162002EA46D /* ZhiFuMoneyActionTests.m */,
+				0F0CF03B1E54A162002EA46D /* Info.plist */,
+			);
+			path = ZhiFuMoneyActionTests;
+			sourceTree = "<group>";
+		};
+		0F0CF0431E54A162002EA46D /* ZhiFuMoneyActionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0F0CF0441E54A162002EA46D /* ZhiFuMoneyActionUITests.m */,
+				0F0CF0461E54A162002EA46D /* Info.plist */,
+			);
+			path = ZhiFuMoneyActionUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0F0CF01B1E54A161002EA46D /* ZhiFuMoneyAction */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F0CF0491E54A162002EA46D /* Build configuration list for PBXNativeTarget "ZhiFuMoneyAction" */;
+			buildPhases = (
+				0F0CF0181E54A161002EA46D /* Sources */,
+				0F0CF0191E54A161002EA46D /* Frameworks */,
+				0F0CF01A1E54A161002EA46D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZhiFuMoneyAction;
+			productName = ZhiFuMoneyAction;
+			productReference = 0F0CF01C1E54A161002EA46D /* ZhiFuMoneyAction.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0F0CF0341E54A162002EA46D /* ZhiFuMoneyActionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F0CF04C1E54A162002EA46D /* Build configuration list for PBXNativeTarget "ZhiFuMoneyActionTests" */;
+			buildPhases = (
+				0F0CF0311E54A162002EA46D /* Sources */,
+				0F0CF0321E54A162002EA46D /* Frameworks */,
+				0F0CF0331E54A162002EA46D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0F0CF0371E54A162002EA46D /* PBXTargetDependency */,
+			);
+			name = ZhiFuMoneyActionTests;
+			productName = ZhiFuMoneyActionTests;
+			productReference = 0F0CF0351E54A162002EA46D /* ZhiFuMoneyActionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0F0CF03F1E54A162002EA46D /* ZhiFuMoneyActionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F0CF04F1E54A162002EA46D /* Build configuration list for PBXNativeTarget "ZhiFuMoneyActionUITests" */;
+			buildPhases = (
+				0F0CF03C1E54A162002EA46D /* Sources */,
+				0F0CF03D1E54A162002EA46D /* Frameworks */,
+				0F0CF03E1E54A162002EA46D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0F0CF0421E54A162002EA46D /* PBXTargetDependency */,
+			);
+			name = ZhiFuMoneyActionUITests;
+			productName = ZhiFuMoneyActionUITests;
+			productReference = 0F0CF0401E54A162002EA46D /* ZhiFuMoneyActionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0F0CF0141E54A161002EA46D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = huyiyong;
+				TargetAttributes = {
+					0F0CF01B1E54A161002EA46D = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+					0F0CF0341E54A162002EA46D = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0F0CF01B1E54A161002EA46D;
+					};
+					0F0CF03F1E54A162002EA46D = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0F0CF01B1E54A161002EA46D;
+					};
+				};
+			};
+			buildConfigurationList = 0F0CF0171E54A161002EA46D /* Build configuration list for PBXProject "ZhiFuMoneyAction" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0F0CF0131E54A161002EA46D;
+			productRefGroup = 0F0CF01D1E54A161002EA46D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0F0CF01B1E54A161002EA46D /* ZhiFuMoneyAction */,
+				0F0CF0341E54A162002EA46D /* ZhiFuMoneyActionTests */,
+				0F0CF03F1E54A162002EA46D /* ZhiFuMoneyActionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0F0CF01A1E54A161002EA46D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F0CF02F1E54A161002EA46D /* LaunchScreen.storyboard in Resources */,
+				0F0CF02C1E54A161002EA46D /* Assets.xcassets in Resources */,
+				0F0CF02A1E54A161002EA46D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F0CF0331E54A162002EA46D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F0CF03E1E54A162002EA46D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0F0CF0181E54A161002EA46D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F0CF0271E54A161002EA46D /* ViewController.m in Sources */,
+				0F0CF0241E54A161002EA46D /* AppDelegate.m in Sources */,
+				0F0CF0211E54A161002EA46D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F0CF0311E54A162002EA46D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F0CF03A1E54A162002EA46D /* ZhiFuMoneyActionTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F0CF03C1E54A162002EA46D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F0CF0451E54A162002EA46D /* ZhiFuMoneyActionUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0F0CF0371E54A162002EA46D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0F0CF01B1E54A161002EA46D /* ZhiFuMoneyAction */;
+			targetProxy = 0F0CF0361E54A162002EA46D /* PBXContainerItemProxy */;
+		};
+		0F0CF0421E54A162002EA46D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0F0CF01B1E54A161002EA46D /* ZhiFuMoneyAction */;
+			targetProxy = 0F0CF0411E54A162002EA46D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0F0CF0281E54A161002EA46D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F0CF0291E54A161002EA46D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0F0CF02D1E54A161002EA46D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F0CF02E1E54A161002EA46D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0F0CF0471E54A162002EA46D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0F0CF0481E54A162002EA46D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0F0CF04A1E54A162002EA46D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZhiFuMoneyAction/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wu.ZhiFuMoneyAction;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0F0CF04B1E54A162002EA46D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZhiFuMoneyAction/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wu.ZhiFuMoneyAction;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0F0CF04D1E54A162002EA46D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZhiFuMoneyActionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wu.ZhiFuMoneyActionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZhiFuMoneyAction.app/ZhiFuMoneyAction";
+			};
+			name = Debug;
+		};
+		0F0CF04E1E54A162002EA46D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZhiFuMoneyActionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wu.ZhiFuMoneyActionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZhiFuMoneyAction.app/ZhiFuMoneyAction";
+			};
+			name = Release;
+		};
+		0F0CF0501E54A162002EA46D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZhiFuMoneyActionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wu.ZhiFuMoneyActionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZhiFuMoneyAction;
+			};
+			name = Debug;
+		};
+		0F0CF0511E54A162002EA46D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZhiFuMoneyActionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wu.ZhiFuMoneyActionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZhiFuMoneyAction;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F0CF0171E54A161002EA46D /* Build configuration list for PBXProject "ZhiFuMoneyAction" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F0CF0471E54A162002EA46D /* Debug */,
+				0F0CF0481E54A162002EA46D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F0CF0491E54A162002EA46D /* Build configuration list for PBXNativeTarget "ZhiFuMoneyAction" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F0CF04A1E54A162002EA46D /* Debug */,
+				0F0CF04B1E54A162002EA46D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0F0CF04C1E54A162002EA46D /* Build configuration list for PBXNativeTarget "ZhiFuMoneyActionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F0CF04D1E54A162002EA46D /* Debug */,
+				0F0CF04E1E54A162002EA46D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0F0CF04F1E54A162002EA46D /* Build configuration list for PBXNativeTarget "ZhiFuMoneyActionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F0CF0501E54A162002EA46D /* Debug */,
+				0F0CF0511E54A162002EA46D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0F0CF0141E54A161002EA46D /* Project object */;
+}
