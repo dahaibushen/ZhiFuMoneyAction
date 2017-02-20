@@ -25,7 +25,7 @@
 #pragma mark 
 -(void)buttClick:(UIButton*)btn{
   
-    Order *order;
+   
 
     
 }
