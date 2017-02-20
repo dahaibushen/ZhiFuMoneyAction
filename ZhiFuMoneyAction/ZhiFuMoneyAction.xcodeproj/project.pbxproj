@@ -9,12 +9,25 @@
 /* Begin PBXBuildFile section */
 		0F0CF0211E54A161002EA46D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F0CF0201E54A161002EA46D /* main.m */; };
 		0F0CF0241E54A161002EA46D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F0CF0231E54A161002EA46D /* AppDelegate.m */; };
-		0F0CF0271E54A161002EA46D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F0CF0261E54A161002EA46D /* ViewController.m */; };
 		0F0CF02A1E54A161002EA46D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F0CF0281E54A161002EA46D /* Main.storyboard */; };
 		0F0CF02C1E54A161002EA46D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F0CF02B1E54A161002EA46D /* Assets.xcassets */; };
 		0F0CF02F1E54A161002EA46D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F0CF02D1E54A161002EA46D /* LaunchScreen.storyboard */; };
 		0F0CF03A1E54A162002EA46D /* ZhiFuMoneyActionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F0CF0391E54A162002EA46D /* ZhiFuMoneyActionTests.m */; };
 		0F0CF0451E54A162002EA46D /* ZhiFuMoneyActionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F0CF0441E54A162002EA46D /* ZhiFuMoneyActionUITests.m */; };
+		0F0CF0541E55EBB0002EA46D /* ZFBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F0CF0531E55EBB0002EA46D /* ZFBViewController.m */; };
+		0F0CF0571E55EBC2002EA46D /* WChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F0CF0561E55EBC2002EA46D /* WChatViewController.m */; };
+		0F0CF05B1E55ED63002EA46D /* AlipaySDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0F0CF05A1E55ED63002EA46D /* AlipaySDK.bundle */; };
+		0F0CF05D1E55ED69002EA46D /* AlipaySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F0CF05C1E55ED69002EA46D /* AlipaySDK.framework */; };
+		0F0CF0601E55ED8F002EA46D /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F0CF05F1E55ED8F002EA46D /* libc++.tbd */; };
+		0F0CF0621E55ED95002EA46D /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F0CF0611E55ED95002EA46D /* libz.tbd */; };
+		0F0CF0641E55ED9C002EA46D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F0CF0631E55ED9C002EA46D /* SystemConfiguration.framework */; };
+		0F0CF0661E55EDA3002EA46D /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F0CF0651E55EDA3002EA46D /* CoreTelephony.framework */; };
+		0F0CF0681E55EDAA002EA46D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F0CF0671E55EDAA002EA46D /* QuartzCore.framework */; };
+		0F0CF06A1E55EDB1002EA46D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F0CF0691E55EDB1002EA46D /* CoreGraphics.framework */; };
+		0F0CF06C1E55EDB8002EA46D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F0CF06B1E55EDB8002EA46D /* UIKit.framework */; };
+		0F0CF06E1E55EDC3002EA46D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F0CF06D1E55EDC3002EA46D /* Foundation.framework */; };
+		0F0CF0701E55EDC9002EA46D /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F0CF06F1E55EDC9002EA46D /* CFNetwork.framework */; };
+		0F0CF0721E55EDD0002EA46D /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F0CF0711E55EDD0002EA46D /* CoreMotion.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +52,6 @@
 		0F0CF0201E54A161002EA46D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0F0CF0221E54A161002EA46D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0F0CF0231E54A161002EA46D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0F0CF0251E54A161002EA46D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		0F0CF0261E54A161002EA46D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		0F0CF0291E54A161002EA46D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0F0CF02B1E54A161002EA46D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0F0CF02E1E54A161002EA46D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +62,22 @@
 		0F0CF0401E54A162002EA46D /* ZhiFuMoneyActionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZhiFuMoneyActionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F0CF0441E54A162002EA46D /* ZhiFuMoneyActionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZhiFuMoneyActionUITests.m; sourceTree = "<group>"; };
 		0F0CF0461E54A162002EA46D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F0CF0521E55EBB0002EA46D /* ZFBViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFBViewController.h; sourceTree = "<group>"; };
+		0F0CF0531E55EBB0002EA46D /* ZFBViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFBViewController.m; sourceTree = "<group>"; };
+		0F0CF0551E55EBC2002EA46D /* WChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WChatViewController.h; sourceTree = "<group>"; };
+		0F0CF0561E55EBC2002EA46D /* WChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WChatViewController.m; sourceTree = "<group>"; };
+		0F0CF05A1E55ED63002EA46D /* AlipaySDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AlipaySDK.bundle; sourceTree = "<group>"; };
+		0F0CF05C1E55ED69002EA46D /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlipaySDK.framework; sourceTree = "<group>"; };
+		0F0CF05F1E55ED8F002EA46D /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		0F0CF0611E55ED95002EA46D /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		0F0CF0631E55ED9C002EA46D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		0F0CF0651E55EDA3002EA46D /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		0F0CF0671E55EDAA002EA46D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		0F0CF0691E55EDB1002EA46D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0F0CF06B1E55EDB8002EA46D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0F0CF06D1E55EDC3002EA46D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0F0CF06F1E55EDC9002EA46D /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		0F0CF0711E55EDD0002EA46D /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +85,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F0CF0721E55EDD0002EA46D /* CoreMotion.framework in Frameworks */,
+				0F0CF0701E55EDC9002EA46D /* CFNetwork.framework in Frameworks */,
+				0F0CF06E1E55EDC3002EA46D /* Foundation.framework in Frameworks */,
+				0F0CF06C1E55EDB8002EA46D /* UIKit.framework in Frameworks */,
+				0F0CF06A1E55EDB1002EA46D /* CoreGraphics.framework in Frameworks */,
+				0F0CF0681E55EDAA002EA46D /* QuartzCore.framework in Frameworks */,
+				0F0CF0661E55EDA3002EA46D /* CoreTelephony.framework in Frameworks */,
+				0F0CF0641E55ED9C002EA46D /* SystemConfiguration.framework in Frameworks */,
+				0F0CF0621E55ED95002EA46D /* libz.tbd in Frameworks */,
+				0F0CF0601E55ED8F002EA46D /* libc++.tbd in Frameworks */,
+				0F0CF05D1E55ED69002EA46D /* AlipaySDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +123,7 @@
 				0F0CF0381E54A162002EA46D /* ZhiFuMoneyActionTests */,
 				0F0CF0431E54A162002EA46D /* ZhiFuMoneyActionUITests */,
 				0F0CF01D1E54A161002EA46D /* Products */,
+				0F0CF05E1E55ED8E002EA46D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,11 +140,15 @@
 		0F0CF01E1E54A161002EA46D /* ZhiFuMoneyAction */ = {
 			isa = PBXGroup;
 			children = (
+				0F0CF0591E55EC3B002EA46D /* 微信 */,
+				0F0CF0581E55EC2D002EA46D /* 支付宝 */,
 				0F0CF0221E54A161002EA46D /* AppDelegate.h */,
 				0F0CF0231E54A161002EA46D /* AppDelegate.m */,
-				0F0CF0251E54A161002EA46D /* ViewController.h */,
-				0F0CF0261E54A161002EA46D /* ViewController.m */,
 				0F0CF0281E54A161002EA46D /* Main.storyboard */,
+				0F0CF0521E55EBB0002EA46D /* ZFBViewController.h */,
+				0F0CF0531E55EBB0002EA46D /* ZFBViewController.m */,
+				0F0CF0551E55EBC2002EA46D /* WChatViewController.h */,
+				0F0CF0561E55EBC2002EA46D /* WChatViewController.m */,
 				0F0CF02B1E54A161002EA46D /* Assets.xcassets */,
 				0F0CF02D1E54A161002EA46D /* LaunchScreen.storyboard */,
 				0F0CF0301E54A161002EA46D /* Info.plist */,
@@ -138,6 +181,39 @@
 				0F0CF0461E54A162002EA46D /* Info.plist */,
 			);
 			path = ZhiFuMoneyActionUITests;
+			sourceTree = "<group>";
+		};
+		0F0CF0581E55EC2D002EA46D /* 支付宝 */ = {
+			isa = PBXGroup;
+			children = (
+				0F0CF05C1E55ED69002EA46D /* AlipaySDK.framework */,
+				0F0CF05A1E55ED63002EA46D /* AlipaySDK.bundle */,
+			);
+			path = "支付宝";
+			sourceTree = "<group>";
+		};
+		0F0CF0591E55EC3B002EA46D /* 微信 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "微信";
+			sourceTree = "<group>";
+		};
+		0F0CF05E1E55ED8E002EA46D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0F0CF0711E55EDD0002EA46D /* CoreMotion.framework */,
+				0F0CF06F1E55EDC9002EA46D /* CFNetwork.framework */,
+				0F0CF06D1E55EDC3002EA46D /* Foundation.framework */,
+				0F0CF06B1E55EDB8002EA46D /* UIKit.framework */,
+				0F0CF0691E55EDB1002EA46D /* CoreGraphics.framework */,
+				0F0CF0671E55EDAA002EA46D /* QuartzCore.framework */,
+				0F0CF0651E55EDA3002EA46D /* CoreTelephony.framework */,
+				0F0CF0631E55ED9C002EA46D /* SystemConfiguration.framework */,
+				0F0CF0611E55ED95002EA46D /* libz.tbd */,
+				0F0CF05F1E55ED8F002EA46D /* libc++.tbd */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,6 +283,7 @@
 				TargetAttributes = {
 					0F0CF01B1E54A161002EA46D = {
 						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = LY2H97QGT5;
 						ProvisioningStyle = Automatic;
 					};
 					0F0CF0341E54A162002EA46D = {
@@ -248,6 +325,7 @@
 			files = (
 				0F0CF02F1E54A161002EA46D /* LaunchScreen.storyboard in Resources */,
 				0F0CF02C1E54A161002EA46D /* Assets.xcassets in Resources */,
+				0F0CF05B1E55ED63002EA46D /* AlipaySDK.bundle in Resources */,
 				0F0CF02A1E54A161002EA46D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,9 +351,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0F0CF0271E54A161002EA46D /* ViewController.m in Sources */,
 				0F0CF0241E54A161002EA46D /* AppDelegate.m in Sources */,
 				0F0CF0211E54A161002EA46D /* main.m in Sources */,
+				0F0CF0571E55EBC2002EA46D /* WChatViewController.m in Sources */,
+				0F0CF0541E55EBB0002EA46D /* ZFBViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,7 +503,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LY2H97QGT5;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ZhiFuMoneyAction/支付宝",
+				);
 				INFOPLIST_FILE = ZhiFuMoneyAction/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = wu.ZhiFuMoneyAction;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -435,7 +520,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LY2H97QGT5;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ZhiFuMoneyAction/支付宝",
+				);
 				INFOPLIST_FILE = ZhiFuMoneyAction/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = wu.ZhiFuMoneyAction;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -507,6 +598,7 @@
 				0F0CF04B1E54A162002EA46D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0F0CF04C1E54A162002EA46D /* Build configuration list for PBXNativeTarget "ZhiFuMoneyActionTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +607,7 @@
 				0F0CF04E1E54A162002EA46D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0F0CF04F1E54A162002EA46D /* Build configuration list for PBXNativeTarget "ZhiFuMoneyActionUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +616,7 @@
 				0F0CF0511E54A162002EA46D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
