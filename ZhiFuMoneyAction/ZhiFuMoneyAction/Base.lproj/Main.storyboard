@@ -39,13 +39,23 @@
                     <view key="view" contentMode="scaleToFill" id="MbU-gi-p5q">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WQI-OD-F9E">
+                                <rect key="frame" x="84" y="167" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="支付"/>
+                                <connections>
+                                    <action selector="PayClick:" destination="ogh-Mw-Gu8" eventType="touchUpInside" id="zlv-x1-3qW"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="支付宝" id="Rf6-Jq-olj"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="44O-Jy-7Jf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="583" y="-149"/>
+            <point key="canvasLocation" x="564" y="-228"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="QLT-zY-Hbq">
